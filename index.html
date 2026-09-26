@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Governor's Tavern · Bar &amp; Grill · 14 S 7th St, Hudson, NY</title>
+<meta name="description" content="Governor's Tavern, a historic bar and grill just off Warren Street in Hudson, NY. Rotating craft taps, Kinderhook Farm grass-fed burgers, fried chicken sandwiches and wings. 14 South 7th Street · (518) 697-5609.">
+<meta name="theme-color" content="#16100c">
+<link rel="icon" type="image/png" href="img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rye&family=Oswald:wght@400;500;600&family=Lora:ital,wght@0,400;0,500;1,400&family=Caveat+Brush&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="nav" id="top">
+  <div class="nav__inner">
+    <a class="brand" href="#top" aria-label="Governor's Tavern home">
+      <img src="img/badge.png" alt="" width="46" height="46">
+      <span class="brand__name">Governor’s <em>Tavern</em></span>
+    </a>
+    <nav class="nav__links" aria-label="Main">
+      <a href="#menu">Menu</a>
+      <a href="#taps">On Tap</a>
+      <a href="#night">A Night Here</a>
+      <a href="#history">History</a>
+      <a href="#week">Hours</a>
+      <a href="#visit">Visit</a>
+    </nav>
+    <div class="nav__actions">
+      <a class="btn btn--ghost btn--sm nav__call" href="tel:+15186975609">(518) 697-5609</a>
+      <a class="btn btn--brass btn--sm" href="https://www.google.com/maps/dir/?api=1&amp;destination=Governor%27s+Tavern%2C+14+S+7th+St%2C+Hudson%2C+NY+12534" target="_blank" rel="noopener">Directions</a>
+    </div>
+  </div>
+</header>
+
+<main>
+<!-- HERO: the pour -->
+<section class="hero" aria-label="Welcome">
+  <div class="hero__bg"><img src="img/stock-bar-counter.jpg" alt="" fetchpriority="high"></div>
+  <div class="hero__shade"></div>
+  <div class="hero__pin">
+    <div class="hero__copy">
+      <p class="kicker">Bar &amp; Grill · Hudson, New York</p>
+      <h1 class="hero__title"><span class="line">A tavern on this corner</span> <span class="line line--rye">since before 1883.</span></h1>
+      <p class="hero__lede">Rotating craft taps, grass-fed Kinderhook Farm burgers and a warm seat at the bar, just off Warren Street.</p>
+      <div class="hero__ctas">
+        <a class="btn btn--brass btn--lg" href="#menu">See the Menu</a>
+        <a class="btn btn--ghost btn--lg" href="https://www.google.com/maps/dir/?api=1&amp;destination=Governor%27s+Tavern%2C+14+S+7th+St%2C+Hudson%2C+NY+12534" target="_blank" rel="noopener">Get Directions</a>
+      </div>
+      <p class="hero__status"><span class="dot" aria-hidden="true"></span><span data-status>Open Thu–Mon from noon</span></p>
+    </div>
+    <div class="pint" aria-hidden="true">
+      <svg viewBox="0 0 300 460" class="pint__svg">
+        <defs>
+          <clipPath id="glassClip"><path d="M58 70 L242 70 L222 430 Q221 440 210 440 L90 440 Q79 440 78 430 Z"/></clipPath>
+          <linearGradient id="beerGrad" x1="0" x2="1">
+            <stop offset="0" stop-color="#b8661a"/><stop offset=".45" stop-color="#e79a2c"/><stop offset=".7" stop-color="#f3b544"/><stop offset="1" stop-color="#b8661a"/>
+          </linearGradient>
+          <linearGradient id="shine" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".35"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+        </defs>
+        <!-- tap -->
+        <g class="pint__tap">
+          <rect x="128" y="-40" width="44" height="46" rx="6" fill="#c9a14a"/>
+          <rect x="140" y="6" width="20" height="18" rx="3" fill="#a7823a"/>
+        </g>
+        <rect class="pint__stream" x="146" y="24" width="8" height="410" rx="4" fill="#eaa53a" opacity=".95"/>
+        <g clip-path="url(#glassClip)">
+          <rect x="40" y="0" width="220" height="460" fill="rgba(255,255,255,.04)"/>
+          <g class="pint__beer">
+            <rect x="40" y="0" width="220" height="460" fill="url(#beerGrad)"/>
+            <g class="pint__bubbles" fill="#fff5d6" opacity=".55">
+              <circle cx="110" cy="420" r="2.4"/><circle cx="150" cy="400" r="1.8"/><circle cx="185" cy="430" r="2.2"/><circle cx="130" cy="380" r="1.5"/><circle cx="170" cy="360" r="2"/><circle cx="200" cy="395" r="1.6"/><circle cx="95" cy="350" r="1.7"/>
+            </g>
+            <path class="pint__foam" d="M40 -34 Q70 -52 100 -36 Q130 -56 160 -38 Q190 -56 220 -36 Q245 -50 262 -34 L262 18 L40 18 Z" fill="#fff3dc"/>
+          </g>
+          <rect x="72" y="70" width="30" height="370" fill="url(#shine)" opacity=".6"/>
+        </g>
+        <path d="M58 70 L242 70 L222 430 Q221 440 210 440 L90 440 Q79 440 78 430 Z" fill="none" stroke="rgba(255,240,215,.75)" stroke-width="4"/>
+        <text x="150" y="275" text-anchor="middle" class="pint__label">GOVERNOR’S</text>
+      </svg>
+      <p class="pint__caption">Keep scrolling. We’re pouring.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ONE-TAP INFO -->
+<section class="quick" aria-label="Quick info">
+  <div class="wrap quick__grid">
+    <a class="quick__item" href="#week"><span class="quick__k">Today</span><span class="quick__v" data-today>Open Thu–Mon</span></a>
+    <a class="quick__item" href="#menu"><span class="quick__k">Food</span><span class="quick__v">Burgers, chicken &amp; bites</span></a>
+    <a class="quick__item" href="https://www.google.com/maps/dir/?api=1&amp;destination=Governor%27s+Tavern%2C+14+S+7th+St%2C+Hudson%2C+NY+12534" target="_blank" rel="noopener"><span class="quick__k">Find us</span><span class="quick__v">14 S 7th St · off Warren</span></a>
+    <a class="quick__item" href="tel:+15186975609"><span class="quick__k">Call to order</span><span class="quick__v">(518) 697-5609</span></a>
+  </div>
+</section>
+
+<!-- MENU -->
+<section class="menu" id="menu">
+  <div class="wrap">
+    <header class="menu__head">
+      <p class="kicker kicker--dark">The Food</p>
+      <h2 class="rye">The Menu</h2>
+      <p class="menu__sub">Burgers feature pasture-raised, grass-fed beef from <strong>Kinderhook Farm</strong>. Burgers and chicken sandwiches come with hand-cut fries.</p>
+      <nav class="menu__tabs" aria-label="Menu sections">
+        <a href="#m-burgers">Burgers</a><a href="#m-chicken">Chicken Sandwiches</a><a href="#m-bites">Shared Bites</a><a href="#m-salads">Salads &amp; Soup</a>
+      </nav>
+    </header>
+
+    <div class="menu__row" id="m-burgers">
+      <figure class="menu__photo slide-l"><img src="img/stock-burger-bacon.jpg" alt="A bacon cheeseburger on a brioche bun" loading="lazy"></figure>
+      <div class="menu__card slide-r">
+        <h3 class="menu__title"><span>Burgers</span></h3>
+        <p class="menu__note">Served on a brioche bun with hand-cut fries</p>
+        <ul class="items">
+          <li><div class="items__top"><b>State Grill</b><i></i><span>16</span></div><p>cheddar, frizzled onions, pickles w/ horseradish/onion mayo &amp; au jus</p></li>
+          <li><div class="items__top"><b>Govies</b><i></i><span>14</span></div><p>cheddar, lettuce, tomatoes, onions, pickles, special sauce</p></li>
+          <li><div class="items__top"><b>Truffle Shuffle</b><i></i><span>16</span></div><p>fontina, frizzled onions, truffle kewpie mayo</p></li>
+          <li><div class="items__top"><b>Dirty Bastard</b><i></i><span>16</span></div><p>cheddar, coffee spice rub, bacon, onions, fried pickles, bbq sauce</p></li>
+          <li><div class="items__top"><b>Tango</b><i></i><span>16</span></div><p>pepperjack, fried egg, red onion, tomato w/ chimichurri sauce &amp; chipotle mayo</p></li>
+          <li><div class="items__top"><b>Shrimp Burger</b><i></i><span>16</span></div><p>panko crusted fried shrimp patty, red onion, shredded lettuce, wasabi tartar</p></li>
+        </ul>
+        <p class="menu__swap"><b>Substitute</b> a Beyond Burger or cauliflower for any burger or chicken sando.</p>
+      </div>
+    </div>
+
+    <div class="menu__row menu__row--rev" id="m-chicken">
+      <figure class="menu__photo slide-r"><img src="img/stock-burger-fries.jpg" alt="A sandwich with a basket of fries" loading="lazy"></figure>
+      <div class="menu__card slide-l">
+        <h3 class="menu__title"><span>Chicken Sandwiches</span></h3>
+        <p class="menu__note">Buttermilk fried chicken thighs with hand-cut fries</p>
+        <ul class="items">
+          <li><div class="items__top"><b>The O.G.</b><i></i><span>13</span></div><p>lettuce, pickles, mayo on brioche</p></li>
+          <li><div class="items__top"><b>Nashville Hot</b><i></i><span>15</span></div><p>spicy seasoning, pickled jalapeños, cole slaw on texas toast</p></li>
+          <li><div class="items__top"><b>Buffalo</b><i></i><span>15</span></div><p>carrot-celery slaw, blue cheese on brioche</p></li>
+          <li><div class="items__top"><b>Killah Bee</b><i></i><span>15</span></div><p>hot honey, pickles, samurai sauce on brioche</p></li>
+          <li><div class="items__top"><b>Caprese</b><i></i><span>15</span></div><p>thick cut tomato, mozzarella, basil kewpie mayo on texas toast</p></li>
+          <li><div class="items__top"><b>Chicken Queso</b><i></i><span>15</span></div><p>queso, fresh jalapeños, pickled red onions on brioche</p></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="menu__row" id="m-bites">
+      <figure class="menu__photo slide-l"><img src="img/stock-wings.jpg" alt="Baskets of chicken wings with blue cheese and celery" loading="lazy"></figure>
+      <div class="menu__card slide-r">
+        <h3 class="menu__title"><span>Shared Bites</span></h3>
+        <ul class="items">
+          <li><div class="items__top"><b>Wings (8)</b><i></i><span>14</span></div><p>old bay · cajun · garlic/parm · bbq · buffalo · mango/habanero</p></li>
+          <li><div class="items__top"><b>Wonton Nachos</b><i></i><span>14</span></div><p>wonton chips, refried pintos, queso, pico de gallo, jalapeños, lime crema</p></li>
+          <li><div class="items__top"><b>Pepperoni Sliders (2)</b><i></i><span>9</span></div><p>sliced and slow cooked in red sauce on garlic/parm topped brioche</p></li>
+          <li><div class="items__top"><b>Fried Cheese Curds</b><i></i><span>8</span></div><p>w/ marinara</p></li>
+          <li><div class="items__top"><b>Popper Roulette</b><i></i><span>8</span></div><p>5 jalapeños, 1 habanero, w/ ranch. Good luck.</p></li>
+          <li><div class="items__top"><b>Basket of Fries</b><i></i><span>6</span></div><p>hand cut and double fried</p></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="menu__row menu__row--rev" id="m-salads">
+      <figure class="menu__photo slide-r"><img src="img/fb/bbq-salad.jpg" alt="The BBQ Salad at Governor's Tavern" loading="lazy" class="is-small"><figcaption>BBQ Salad, from our Facebook</figcaption></figure>
+      <div class="menu__card slide-l">
+        <h3 class="menu__title"><span>Salads</span></h3>
+        <ul class="items">
+          <li><div class="items__top"><b>BBQ Salad</b><i></i><span>14</span></div><p>romaine, grilled corn, pickled red cabbage, cheddar, frizzled onions w/ bbq-ranch</p></li>
+          <li><div class="items__top"><b>Wedge</b><i></i><span>14</span></div><p>iceberg, bacon, tomatoes w/ blue cheese</p></li>
+          <li><div class="items__top"><b>Greek</b><i></i><span>14</span></div><p>romaine, cukes, tomatoes, red onions, kalamata olives w/ feta dressing</p></li>
+          <li><div class="items__top"><b>Caesar</b><i></i><span>14</span></div><p>romaine, breadcrumbs, shaved parm w/ caesar dressing</p></li>
+        </ul>
+        <h3 class="menu__title menu__title--sm"><span>Soup</span></h3>
+        <ul class="items">
+          <li><div class="items__top"><b>N.E. Clam Chowder</b><i></i><span>5 / 9</span></div><p>cup / bowl</p></li>
+        </ul>
+        <div class="addons">
+          <p><b>Add-ons</b> chicken 5 · beef 6 · bacon 2 · queso 2</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu__foot">
+      <p>Hungry at home? <a href="tel:+15186975609">Call (518) 697-5609</a> to place an order for pickup.</p>
+      <p class="menu__fine">Menu and prices as posted on governorstavernny.com. They may change; ask your bartender.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ON TAP: chalkboard -->
+<section class="taps" id="taps">
+  <div class="wrap taps__grid">
+    <div class="taps__intro">
+      <p class="kicker">The Beer</p>
+      <h2 class="rye">On Tap</h2>
+      <p>An ever-changing list of craft drafts, with usually something local pouring. Here’s what the board said on <b>Sept 25, 2026</b>:</p>
+      <ul class="taps__facts">
+        <li>We sell beer to go</li>
+        <li>Bottles &amp; cans, ciders and an NA option too</li>
+      </ul>
+      <a class="btn btn--brass" href="https://www.beermenus.com/places/43706-governor-s-tavern" target="_blank" rel="noopener">Live tap list on BeerMenus</a>
+      <figure class="taps__photo"><img src="img/stock-pint-bar.jpg" alt="A pint of amber ale on a bar" loading="lazy"></figure>
+    </div>
+    <div class="board">
+      <h3 class="board__h">Drafts</h3>
+      <ul class="board__list">
+        <li><b>3 Floyds Zombie Dust</b><span>American Pale Ale · 6.5% · Munster, IN</span><em>16oz $8</em></li>
+        <li><b>Delirium Tremens</b><span>Belgian Strong Ale · 8.5% · Melle, Belgium</span><em>12oz $10</em></li>
+        <li><b>Foam Alien Observer</b><span>Sour Ale · 5.0% · Burlington, VT</span><em>16oz $8</em></li>
+        <li><b>Guinness Draught (Nitro)</b><span>Dry Stout · 4.2% · Dublin, Ireland</span><em>20oz $7</em></li>
+        <li><b>Hill Farmstead George</b><span>Brown Ale · 6.0% · Greensboro Bend, VT</span><em>16oz $8</em></li>
+        <li><b>Jack’s Abby Modern Hefe</b><span>Hefeweizen · 5.0% · Framingham, MA</span><em>16oz $7</em></li>
+        <li><b>Köstritzer Schwarzbier</b><span>Schwarzbier · 4.8% · Bad Köstritz, Germany</span><em>16oz $8</em></li>
+        <li><b>Miller Lite</b><span>Pale Lager · 4.2% · Milwaukee, WI</span><em>16oz $4</em></li>
+        <li><b>Roe Jan Morris Ale</b><span>ESB · 5.0% · Hillsdale, NY</span><em>16oz $7</em></li>
+        <li><b>Warwick Valley Doc’s Hard Raspberry Cider</b><span>Cider · 5.0% · Warwick, NY</span><em>16oz $8</em></li>
+      </ul>
+      <div class="board__cols">
+        <div>
+          <h4 class="board__h board__h--sm">Bottles</h4>
+          <ul class="board__mini">
+            <li>Ayinger Oktober Fest-Märzen <em>$8</em></li>
+            <li>De la Senne Taras Boulba <em>$8</em></li>
+            <li>Firestone Walker Parabola 2026 <em>$12</em></li>
+            <li>Samuel Smith Organic Chocolate Stout <em>$8</em></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="board__h board__h--sm">Cans</h4>
+          <ul class="board__mini">
+            <li>AVAL Cider Blanc <em>$6</em></li>
+            <li>Other Half All In Hazy IPA (NA) <em>$6</em></li>
+            <li>Samuel Smith Organic Lager <em>$8</em></li>
+            <li>Threes Vliet Pilsner</li>
+          </ul>
+        </div>
+      </div>
+      <p class="board__chalk">cheers ~ the Governor</p>
+    </div>
+  </div>
+</section>
+
+<!-- A NIGHT AT THE GOVERNOR'S (pinned story) -->
+<section class="night" id="night" aria-label="A night at the Governor's">
+  <div class="night__pin">
+    <div class="night__media" aria-hidden="true">
+      <img class="night__img" src="img/stock-bar-woodwork.jpg" alt="" loading="lazy">
+      <img class="night__img" src="img/stock-grill-flames.jpg" alt="" loading="lazy">
+      <img class="night__img" src="img/stock-pour-tap.jpg" alt="" loading="lazy">
+      <img class="night__img" src="img/stock-pint-wood.jpg" alt="" loading="lazy">
+    </div>
+    <div class="night__shade"></div>
+    <div class="night__content">
+      <p class="kicker">A night at the Governor’s</p>
+      <div class="night__panels">
+        <article class="night__panel">
+          <img class="night__panel-img" src="img/stock-bar-woodwork.jpg" alt="A dark wood bar with brass fittings" loading="lazy">
+          <span class="night__num">I.</span>
+          <h3>Walk in</h3>
+          <p>Around the corner from Warren Street, through the door on 7th. Dark wood and exposed brick, the original bar-back, and a mural-sized photograph of 1800s Warren Street on the back wall.</p>
+        </article>
+        <article class="night__panel">
+          <img class="night__panel-img" src="img/stock-grill-flames.jpg" alt="Burgers on a flaming grill" loading="lazy">
+          <span class="night__num">II.</span>
+          <h3>Order up</h3>
+          <p>The State Grill burger: Kinderhook Farm beef, cheddar, frizzled onions and horseradish-onion mayo, with a cup of au jus for dunking. Or roll the dice on Popper Roulette: five jalapeños, one habanero.</p>
+          <a class="textlink" href="#m-burgers">See the burgers →</a>
+        </article>
+        <article class="night__panel">
+          <img class="night__panel-img" src="img/stock-pour-tap.jpg" alt="A bartender pulling a pint" loading="lazy">
+          <span class="night__num">III.</span>
+          <h3>Game on</h3>
+          <p>Three flat screens, each tuned to a different sport, so expect some cheering (and some cursing). Pull up a stool, pick something off the board and settle in.</p>
+          <a class="textlink" href="#taps">What’s on tap →</a>
+        </article>
+        <article class="night__panel">
+          <img class="night__panel-img" src="img/stock-pint-wood.jpg" alt="A last pint on a wooden table" loading="lazy">
+          <span class="night__num">IV.</span>
+          <h3>Last call</h3>
+          <p>Friday and Saturday we pour until 1am. Grab one more round, or take a few cans home with you.</p>
+          <a class="textlink" href="#week">This week’s hours →</a>
+        </article>
+      </div>
+      <div class="night__foot">
+        <ol class="night__progress" aria-hidden="true"><li>Walk in</li><li>Order</li><li>Game on</li><li>Last call</li></ol>
+        <a class="btn btn--brass btn--lg night__cta" href="https://www.google.com/maps/dir/?api=1&amp;destination=Governor%27s+Tavern%2C+14+S+7th+St%2C+Hudson%2C+NY+12534" target="_blank" rel="noopener">Get Directions →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HISTORY -->
+<section class="history" id="history">
+  <div class="wrap history__grid">
+    <div class="history__intro">
+      <p class="kicker kicker--dark">Since before 1883</p>
+      <h2 class="rye">The State Grill. The Iron Horse. The Governor’s.</h2>
+      <p>Few bars in the Hudson Valley have this much history behind the taps.</p>
+      <img class="history__plaque" src="img/logo-plaque.jpg" alt="Governor's Tavern, Hudson NY sign with the bulldog logo" loading="lazy">
+      <p class="history__dog">The name? It comes from the owners’ first bulldog, <b>Governor Russell Smalls</b>.</p>
+    </div>
+    <ol class="timeline">
+      <li class="tl"><span class="tl__year">Before 1883</span><h3>The State Grill</h3><p>An affordable boarding house and tavern for farmers coming into Hudson for provisions. Horses and coaches were kept in the barn out back.</p></li>
+      <li class="tl"><span class="tl__year">Prohibition → 1990s</span><h3>Open through it all</h3><p>It kept running in some capacity through Prohibition, and for years it opened at 8am for shift workers.</p></li>
+      <li class="tl"><span class="tl__year">On the big screen</span><h3>Hollywood’s favorite dive</h3><p>Filmmakers looking for a classic bar shot scenes here, including <em>Ironweed</em>, <em>Cake Eaters</em> and Paul Newman’s <em>Nobody’s Fool</em> (1994). For that film the bar became “The Iron Horse,” and the name stuck.</p></li>
+      <li class="tl"><span class="tl__year">2013–2016</span><h3>A pause, then a restoration</h3><p>After longtime owner Frank Martino passed in 2013, the building sat empty. New owners brought historic photos to the Historic Preservation Commission and restored it top to bottom.</p></li>
+      <li class="tl"><span class="tl__year">2017 → today</span><h3>Governor’s Tavern</h3><p>Renee Ortega and Brian Dykeman kept the original bar-back and repurposed the original bar, which they found inside the walls. The neighborhood pub carries on.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- THE WEEK -->
+<section class="week" id="week">
+  <div class="wrap">
+    <header class="week__head">
+      <p class="kicker">Hours</p>
+      <h2 class="rye">The week at the Governor’s</h2>
+      <p class="week__status" data-status-long>Open Thursday through Monday from noon.</p>
+    </header>
+    <ol class="days">
+      <li class="day" data-dow="1"><span class="day__name">Mon</span><span class="day__hrs">12pm<br>–12am</span></li>
+      <li class="day day--closed" data-dow="2"><span class="day__name">Tue</span><span class="day__hrs">Closed</span></li>
+      <li class="day day--closed" data-dow="3"><span class="day__name">Wed</span><span class="day__hrs">Closed</span></li>
+      <li class="day" data-dow="4"><span class="day__name">Thu</span><span class="day__hrs">12pm<br>–12am</span></li>
+      <li class="day day--late" data-dow="5"><span class="day__name">Fri</span><span class="day__hrs">12pm<br>–1am</span></li>
+      <li class="day day--late" data-dow="6"><span class="day__name">Sat</span><span class="day__hrs">12pm<br>–1am</span></li>
+      <li class="day" data-dow="0"><span class="day__name">Sun</span><span class="day__hrs">12pm<br>–12am</span></li>
+    </ol>
+    <div class="week__notes">
+      <div class="note"><h3>Game day</h3><p>Three screens, three different sports.</p></div>
+      <div class="note"><h3>Taps rotate</h3><p>New beers hit the board all the time. Check BeerMenus before you come.</p></div>
+      <div class="note"><h3>Outside &amp; dog-friendly</h3><p>Outdoor seating, and pets are welcome.</p></div>
+      <div class="note"><h3>Private parties</h3><p>Want the place for an occasion? <a href="tel:+15186975609">Give us a call</a>.</p></div>
+    </div>
+    <p class="week__fine">Hours can change for holidays and private events. Check <a href="https://www.facebook.com/GovernorsTavernHudson/" target="_blank" rel="noopener">our Facebook</a> or call before you head over.</p>
+  </div>
+</section>
+
+<!-- POLAROIDS -->
+<section class="wall" aria-label="Photos from our Facebook">
+  <div class="wrap">
+    <header class="wall__head">
+      <p class="kicker kicker--dark">From our Facebook</p>
+      <h2 class="rye">Around the bar</h2>
+    </header>
+    <div class="polaroids">
+      <figure class="pol" style="--r:-6deg"><img src="img/fb/exterior-open-today.jpg" alt="Governor's Tavern at night in the snow" loading="lazy"><figcaption>Snow day, still open</figcaption></figure>
+      <figure class="pol" style="--r:4deg"><img src="img/fb/shrimp-burger.jpg" alt="The Shrimp Burger" loading="lazy"><figcaption>Shrimp Burger</figcaption></figure>
+      <figure class="pol" style="--r:-3deg"><img src="img/fb/beer-flight.jpg" alt="A Governor's Tavern logo glass of beer" loading="lazy"><figcaption>House glassware</figcaption></figure>
+      <figure class="pol" style="--r:7deg"><img src="img/fb/bulldogs.jpg" alt="Two bulldogs in sunglasses" loading="lazy"><figcaption>Good boys</figcaption></figure>
+      <figure class="pol" style="--r:-5deg"><img src="img/fb/pepperoni-sliders.jpg" alt="Pepperoni sliders" loading="lazy"><figcaption>Pepperoni sliders</figcaption></figure>
+      <figure class="pol" style="--r:3deg"><img src="img/fb/bar-interior.jpg" alt="The bar at Governor's Tavern" loading="lazy"><figcaption>The bar</figcaption></figure>
+      <figure class="pol" style="--r:-7deg"><img src="img/fb/tango-burger.jpg" alt="The Tango burger with a fried egg" loading="lazy"><figcaption>Tango</figcaption></figure>
+      <figure class="pol" style="--r:5deg"><img src="img/fb/cheese-curds.jpg" alt="Fried cheese curds" loading="lazy"><figcaption>Cheese curds</figcaption></figure>
+      <figure class="pol" style="--r:-2deg"><img src="img/fb/sign-dog.jpg" alt="A dog under the Governor's Tavern sign" loading="lazy"><figcaption>Good dog</figcaption></figure>
+      <figure class="pol" style="--r:6deg"><img src="img/fb/deck-chairs.jpg" alt="Outdoor seating" loading="lazy"><figcaption>Outdoor seating</figcaption></figure>
+    </div>
+    <p class="wall__more"><a href="https://www.facebook.com/GovernorsTavernHudson/" target="_blank" rel="noopener">Follow Governor’s Tavern on Facebook →</a></p>
+  </div>
+</section>
+
+<!-- VISIT -->
+<section class="visit" id="visit">
+  <div class="wrap visit__grid">
+    <div class="visit__info">
+      <p class="kicker">Visit</p>
+      <h2 class="rye">Find the Governor’s</h2>
+      <address>14 South 7th Street<br>Hudson, NY 12534</address>
+      <p class="visit__how">Just off Warren Street, Hudson’s main drag.</p>
+      <div class="visit__btns">
+        <a class="btn btn--brass btn--lg" href="https://www.google.com/maps/dir/?api=1&amp;destination=Governor%27s+Tavern%2C+14+S+7th+St%2C+Hudson%2C+NY+12534" target="_blank" rel="noopener">Get Directions</a>
+        <a class="btn btn--ghost btn--lg" href="tel:+15186975609">Call (518) 697-5609</a>
+      </div>
+      <ul class="visit__list">
+        <li><span>Email</span><a href="mailto:goviestavern@gmail.com">goviestavern@gmail.com</a></li>
+        <li><span>Facebook</span><a href="https://www.facebook.com/GovernorsTavernHudson/" target="_blank" rel="noopener">GovernorsTavernHudson</a></li>
+        <li><span>Taps</span><a href="https://www.beermenus.com/places/43706-governor-s-tavern" target="_blank" rel="noopener">BeerMenus live list</a></li>
+      </ul>
+    </div>
+    <div class="visit__map">
+      <iframe title="Map to Governor's Tavern, 14 S 7th St, Hudson NY" src="https://maps.google.com/maps?q=Governor%27s%20Tavern%2C%2014%20S%207th%20St%2C%20Hudson%2C%20NY%2012534&amp;z=16&amp;output=embed" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer__grid">
+    <div class="footer__brand">
+      <img src="img/badge.png" alt="" width="64" height="64" loading="lazy">
+      <p class="rye">Governor’s Tavern</p>
+      <p>Bar &amp; grill · Hudson, NY</p>
+    </div>
+    <div>
+      <h4>Eat &amp; drink</h4>
+      <a href="#menu">Menu</a><a href="#taps">On tap</a><a href="#week">Hours</a>
+    </div>
+    <div>
+      <h4>Find us</h4>
+      <p>14 South 7th Street<br>Hudson, NY 12534</p>
+      <a href="tel:+15186975609">(518) 697-5609</a>
+    </div>
+    <div>
+      <h4>Follow</h4>
+      <a href="https://www.facebook.com/GovernorsTavernHudson/" target="_blank" rel="noopener">Facebook</a>
+      <a href="https://www.beermenus.com/places/43706-governor-s-tavern" target="_blank" rel="noopener">BeerMenus</a>
+    </div>
+  </div>
+  <div class="wrap footer__base">
+    <span>© <span id="yr">2026</span> Governor’s Tavern · Hudson, NY</span>
+    <span>Concept redesign preview</span>
+  </div>
+</footer>
+
+<!-- Phone action bar: always visible -->
+<nav class="mbar" aria-label="Quick actions">
+  <a href="tel:+15186975609"><span aria-hidden="true">☎</span>Call</a>
+  <a href="#menu"><span aria-hidden="true">☰</span>Menu</a>
+  <a class="mbar__go" href="https://www.google.com/maps/dir/?api=1&amp;destination=Governor%27s+Tavern%2C+14+S+7th+St%2C+Hudson%2C+NY+12534" target="_blank" rel="noopener"><span aria-hidden="true">➜</span>Directions</a>
+</nav>
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js" defer></script>
+<script src="main.js" defer></script>
+</body>
+</html>
