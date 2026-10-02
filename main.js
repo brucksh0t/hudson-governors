@@ -6,7 +6,7 @@
 
   /* ---------- Hours (America/New_York) ---------- */
   // minutes from midnight; close > 1440 means after midnight
-  var HOURS = {0:[720,1440],1:[720,1440],2:null,3:null,4:[720,1440],5:[720,1500],6:[720,1500]};
+  var HOURS = {0:[720,1500],1:[720,1500],2:[720,1500],3:[720,1500],4:[720,1500],5:[720,1560],6:[720,1560]};
   var NAMES = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
   function nyNow(){
     try{

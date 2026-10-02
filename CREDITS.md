@@ -4,8 +4,8 @@ An unofficial concept redesign. It is not affiliated with or endorsed by Governo
 
 ## Content sources
 - Menu and prices: transcribed from the menu image on governorstavernny.com/food (retrieved Sept 26, 2026)
-- Tap list: BeerMenus, https://www.beermenus.com/places/43706-governor-s-tavern (updated Sept 25, 2026)
-- Hours: Google-sourced listings, Visit Hudson, and The Mountains (Jan 2025). Sources disagree.
+- Tap list: BeerMenus, https://www.beermenus.com/places/43706-governor-s-tavern (Updated 09/27/2026; On Tap: 12 | Bottles: 4 | Cans: 4)
+- Hours: aligned Oct 2, 2026 to own site (“OPEN EVERY DAY at 12Pm”) + Google Maps Friday 12 PM–2 AM + aggregator close times (Sun–Thu ~1am, Fri–Sat ~2am). Hours can change — call or check Facebook.
 - History: Rural Intelligence (2017), The Gossips of Rivertown (2016), The Mountains (Jan 2025), Trixie's List
 - Logo and small photos in img/fb/: Governor's Tavern's public Facebook page
 
